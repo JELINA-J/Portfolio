@@ -15,18 +15,19 @@
   <nav>
     <h1>JJ</h1>
     <div class="menu-toggle" id="menu-toggle">
-  <i class="fas fa-bars"></i>
-</div>
+      <i class="fas fa-bars"></i>
+    </div>
 
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#certifications">Certifications</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
   <!-- Hero -->
   <section class="hero-section">
@@ -42,14 +43,16 @@
         Enthusiastic Computer Science Engineering student |
         <span class="gradient-text">Aspiring Software Engineer</span>
       </p>
-
+      <p class="hero-description">
+        Full Stack Developer and AI/ML Enthusiast passionate about building
+        intelligent applications, scalable web solutions, and user-friendly experiences.
+      </p>
 
       <!-- Buttons -->
       <div class="hero-buttons">
-        <a href="https://drive.google.com/file/d/1rhtoJ56TInLPlTKSNsSEEIS-7sEMW9zt/view?usp=drivesdk"
-          class="btn primary">Download Resume</a>
-        <a href="#contact" class="btn outline">Contact Me</a>
-      </div>
+  <a href="#projects" class="btn primary">View Projects</a>
+  <a href="#contact" class="btn outline">Contact Me</a>
+</div>
       <div class="hero-image">
         <div class="glow"></div>
         <img src="LinkedIn photo.jpeg" alt="Profile">
@@ -77,7 +80,7 @@
           <h3>💻 Programming Languages</h3>
           <div class="tags">
             <span class="tag">Java</span>
-            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
             <span class="tag">SQL</span>
           </div>
         </div>
@@ -91,6 +94,8 @@
             <span class="tag">React.js</span>
             <span class="tag">Node.js</span>
             <span class="tag">Express.js</span>
+            <span class="tag">JavaScript</span>
+
           </div>
         </div>
 
@@ -143,6 +148,7 @@
             <span class="tag">Data Structures</span>
             <span class="tag">REST APIs</span>
             <span class="tag">Responsive Design</span>
+            <span class="tag">Object-Oriented Programming</span>
           </div>
         </div>
 
@@ -688,21 +694,21 @@
       <div class="circle circle2"></div>
     </div>
   </footer>
-<script>
-  const menuToggle = document.getElementById("menu-toggle");
-  const navLinks = document.getElementById("nav-links");
-  const navItems = document.querySelectorAll(".nav-links a");
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+    const navItems = document.querySelectorAll(".nav-links a");
 
-  menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
-
-  navItems.forEach(item => {
-    item.addEventListener("click", () => {
-      navLinks.classList.remove("active");
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
     });
-  });
-</script>
+
+    navItems.forEach(item => {
+      item.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+      });
+    });
+  </script>
 </body>
 
 </html>

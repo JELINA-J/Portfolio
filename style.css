@@ -1042,14 +1042,7 @@ button:hover {
   }
 }
 
-/* Responsive menu */
-@media (max-width: 768px) {
-  .nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
+
 
 /* =========================
    MOBILE RESPONSIVE DESIGN
