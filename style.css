@@ -817,12 +817,15 @@ button:hover {
 }
 
 /* Buttons */
+
 .hero-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
+  margin-top: 35px;
 }
+
 
 .btn {
   padding: 14px 28px;
